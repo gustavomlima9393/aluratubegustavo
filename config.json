@@ -5,128 +5,123 @@
     "playlists": {
         "músicas": [
             {
-                "title": "Frostpunk - Neve e Steak tartare",
-                "url": "https://www.youtube.com/watch?v=QsqatJxAUtk",
-                "thumb": "https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
+                "title": "All That Remains - Two Weeks (Official Music Video)",
+                "url": "https://www.youtube.com/watch?v=gGtW4AFyLyM",
+                "thumb": "https://img.youtube.com/vi/gGtW4AFyLyM/hqdefault.jpg"
             },
             {
-                "title": "Frostpunk - Neve e Steak tartare",
-                "url": "https://www.youtube.com/watch?v=O8jtAyPuhNg",
-                "thumb": "https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
+                "title": "Killswitch Engage - In Due Time [OFFICIAL VIDEO]",
+                "url": "https://www.youtube.com/watch?v=HANCzu70us4",
+                "thumb": "https://img.youtube.com/vi/HANCzu70us4/hqdefault.jpg"
             },
             {
-                "title": "Gas Station Simulator - 8 dias sem dormir!",
-                "url": "https://www.youtube.com/watch?v=R1d0DyRDG_Q",
-                "thumb": "https://img.youtube.com/vi/R1d0DyRDG_Q/hqdefault.jpg"
+                "title": "Killswitch Engage - My Curse [OFFICIAL VIDEO]",
+                "url": "https://www.youtube.com/watch?v=iPW9AbRMwFU",
+                "thumb": "https://img.youtube.com/vi/iPW9AbRMwFU/hqdefault.jpg"
             },
             {
-                "title": "Gartic Phone - Não assista a esse NerdPlayer!",
-                "url": "https://www.youtube.com/watch?v=0oJQUs5oRiM",
-                "thumb": "https://img.youtube.com/vi/0oJQUs5oRiM/hqdefault.jpg"
+                "title": "Pense - Gota a Gota / Tour 2014 (Vídeo Oficial)",
+                "url": "https://www.youtube.com/watch?v=1Y29TkPc-qo",
+                "thumb": "https://img.youtube.com/vi/1Y29TkPc-qo/hqdefault.jpg"
             },
             {
-                "title": "Netdecking Estraga o Magic?",
-                "url": "https://www.youtube.com/watch?v=dXihyhYEsEc",
-                "thumb": "https://img.youtube.com/vi/dXihyhYEsEc/hqdefault.jpg"
+                "title": "Dead Fish - Queda Livre",
+                "url": "https://www.youtube.com/watch?v=SskqJQ1DT7Y",
+                "thumb": "https://img.youtube.com/vi/SskqJQ1DT7Y/hqdefault.jpg"
             },
             {
-                "title": "Cities: Skylines - EPCOTAB, o futuro de Saint Laurrent",
-                "url": "https://www.youtube.com/watch?v=zybKHMgLCWU",
-                "thumb": "https://img.youtube.com/vi/zybKHMgLCWU/hqdefault.jpg"
+                "title": "Periphery - Sentient Glow (Audio)",
+                "url": "https://www.youtube.com/watch?v=gpVMGvZbGPc",
+                "thumb": "https://img.youtube.com/vi/gpVMGvZbGPc/hqdefault.jpg"
             },
             {
-                "title": "We Were Here Together - Os Enigmas deste Mundo",
-                "url": "https://www.youtube.com/watch?v=UKgQsrHUG40",
-                "thumb": "https://img.youtube.com/vi/UKgQsrHUG40/hqdefault.jpg"
-            },
-            {
-                "title": "Microsoft Flight Simulator - Top Gun: Oceania - Missão RJ!",
-                "url": "https://www.youtube.com/watch?v=n3TneUb5c-w",
-                "thumb": "https://img.youtube.com/vi/n3TneUb5c-w/hqdefault.jpg"
+                "title": "If I Could See",
+                "url": "https://www.youtube.com/watch?v=7zVym5pJy8A",
+                "thumb": "https://img.youtube.com/vi/7zVym5pJy8A/hqdefault.jpg"
             }
         ],
-        "front-end": [
+        "aulas": [
             {
-                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
-                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
-                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+                "title": "What Finally Made PINCH HARMONICS Click For Me (aka Artificial Harmonics/Squeals)",
+                "url": "https://www.youtube.com/watch?v=y17THWYUpUw",
+                "thumb": "https://img.youtube.com/vi/y17THWYUpUw/hqdefault.jpg"
             },
             {
-                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
-                "url": "https://www.youtube.com/watch?v=llF6vD-RljE",
-                "thumb": "https://img.youtube.com/vi/llF6vD-RljE/hqdefault.jpg"
+                "title": "How to Learn Scales Effectively",
+                "url": "https://www.youtube.com/watch?v=-NtdLxhcsg8",
+                "thumb": "https://img.youtube.com/vi/-NtdLxhcsg8/hqdefault.jpg"
             },
             {
-                "title": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
-                "url": "https://www.youtube.com/watch?v=J4BVaXkwmM8",
-                "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
+                "title": "No More Tears Ozzy Osbourne Cover | Guitar Tab | Lesson | Tutorial",
+                "url": "https://www.youtube.com/watch?v=x6HEwH1riDI",
+                "thumb": "https://img.youtube.com/vi/x6HEwH1riDI/hqdefault.jpg"
             },
             {
-                "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
-                "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
-                "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
+                "title": "5 Picking Tips To Save YEARS Of Guitar Practice!",
+                "url": "https://www.youtube.com/watch?v=WmQWTOimz4k",
+                "thumb": "https://img.youtube.com/vi/WmQWTOimz4k/hqdefault.jpg"
             },
             {
-                "title": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
-                "url": "https://www.youtube.com/watch?v=Yf0rC7dERjg",
-                "thumb": "https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
+                "title": "5 Things EVERY Bass Player SHOULD Master",
+                "url": "https://www.youtube.com/watch?v=9Vhl5HBS8Nc",
+                "thumb": "https://img.youtube.com/vi/9Vhl5HBS8Nc/hqdefault.jpg"
             },
             {
-                "title": "Como Foi Programado um App Que Faz Mágica",
-                "url": "https://www.youtube.com/watch?v=I36seuWUe5s",
-                "thumb": "https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
+                "title": "12 Tips I Wish I Knew as a Beginner Drummer",
+                "url": "https://www.youtube.com/watch?v=gHIZELwH49k",
+                "thumb": "https://img.youtube.com/vi/gHIZELwH49k/hqdefault.jpg"
             },
             {
-                "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
-                "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
-                "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
+                "title": "The PERFECT Pattern | Drum Lesson | OrlandoDrummer",
+                "url": "https://www.youtube.com/watch?v=8qMazXHXnAU",
+                "thumb": "https://img.youtube.com/vi/8qMazXHXnAU/hqdefault.jpg"
             },
             {
-                "title": "5 Erros Históricos do CSS",
-                "url": "https://www.youtube.com/watch?v=HNjkqONzGS0",
-                "thumb": "https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
+                "title": "My Last Serenade / KILLSWITCH ENGAGE (screen TAB)",
+                "url": "https://www.youtube.com/watch?v=g5eRElm7Znw",
+                "thumb": "https://img.youtube.com/vi/g5eRElm7Znw/hqdefault.jpg"
             },
             {
-                "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
-                "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
-                "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
+                "title": "Learn To SHRED With Just 6 Patterns! (Guitar Lesson + Tabs)",
+                "url": "https://www.youtube.com/watch?v=HEnGiWwNQCQ",
+                "thumb": "https://img.youtube.com/vi/HEnGiWwNQCQ/hqdefault.jpg"
             }
         ],
-        "back-end": [
+        "reviews": [
             {
-                "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
-                "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
-                "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+                "title": "Rig on Fire - Cuvave/Getaria - Cube baby",
+                "url": "https://www.youtube.com/watch?v=KGSa5h1vh88",
+                "thumb": "https://img.youtube.com/vi/KGSa5h1vh88/hqdefault.jpg"
             },
             {
-                "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
-                "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
-                "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
+                "title": "Rig on Fire - 333 - Nux -MG 30 O melhor custo x beneficio do mercado !!",
+                "url": "https://www.youtube.com/watch?v=29e_Gi8DMvM",
+                "thumb": "https://img.youtube.com/vi/29e_Gi8DMvM/hqdefault.jpg"
             },
             {
-                "title": "O que é o Java? #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
-                "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
+                "title": "Battle of the '59 Les Pauls - Epiphone 1959 Standard vs. Gibson Custom Shop",
+                "url": "https://www.youtube.com/watch?v=b2PKnjBuldA",
+                "thumb": "https://img.youtube.com/vi/b2PKnjBuldA/hqdefault.jpg"
             },
             {
-                "title": "O que é Machine Learning? #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
-                "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
+                "title": "CONHEÇA A GUITARRA ESP LTD SNAKEBYTE - JAMES HETFIELD DA HABRO POR FERNANDO SAVANI",
+                "url": "https://www.youtube.com/watch?v=GEIhd7bvwdA",
+                "thumb": "https://img.youtube.com/vi/GEIhd7bvwdA/hqdefault.jpg"
             },
             {
-                "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=imB0QVoNrGc",
-                "thumb": "https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
+                "title": "I bought the CHEAPEST GUITAR on AMAZON - A bargain or...",
+                "url": "https://www.youtube.com/watch?v=PcuPkqPhxn4",
+                "thumb": "https://img.youtube.com/vi/PcuPkqPhxn4/hqdefault.jpg"
             },
             {
-                "title": "Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=ldRbnpy-qQs",
-                "thumb": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
+                "title": "Falando Baixo - Review Bass Collection - Diego Pessoa",
+                "url": "https://www.youtube.com/watch?v=kpWkmmP9qLQ",
+                "thumb": "https://img.youtube.com/vi/kpWkmmP9qLQ/hqdefault.jpg"
             },
             {
-                "title": "O que é o C#? #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
-                "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+                "title": "Para que Serve o Pedal Bass PreAmp? (Fuhrmann Review)",
+                "url": "https://www.youtube.com/watch?v=-grIyqnuXqc",
+                "thumb": "https://img.youtube.com/vi/-grIyqnuXqc/hqdefault.jpg"
             }
         ]
     }
