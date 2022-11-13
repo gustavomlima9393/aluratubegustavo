@@ -19,7 +19,7 @@ const StyledSearch = styled.div`
     background-color: ${({ theme }) => theme.backgroundBase};
   }
   button {
-    flex: 0;
+    flex: 1;
     cursor: pointer;
     border: none;
     background-color: ${({ theme }) => theme.backgroundLevel2};

@@ -1,21 +1,16 @@
 import React from "react";
 import config from "../config.json";
 import styled from "styled-components";
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 
 function HomePage() {
-    const estilosDaHomePage = {
-        // backgroundColor: "red" 
-    };
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
 
     // console.log(config.playlists);
 
     return (
         <>
-            <CSSReset />
             <div style={{
                 display: "flex",
                 flexDirection: "column",
@@ -44,6 +39,8 @@ export default HomePage
 
 
 const StyledHeader = styled.div`
+    background-color: ${({ theme }) => theme.backgroundLevel1};
+
     img {
         width: 80px;
         height: 80px;
@@ -60,7 +57,7 @@ const StyledHeader = styled.div`
 const StyledBanner = styled.div`
     background-color: blue;
     background-image: url(${({ bg }) => bg});
-    height: 230px;
+    height: 260px;
 `;
 function Header() {
     return (
@@ -90,8 +87,8 @@ function Timeline({ searchValue, ...propriedades }) {
         <StyledTimeline>
             {playlistNames.map((playlistName) => {
                 const videos = propriedades.playlists[playlistName];
-               // console.log(playlistName);
-               // console.log(videos);
+                // console.log(playlistName);
+                // console.log(videos);
                 return (
                     <section key={playlistName}>
                         <h2>{playlistName}</h2>
