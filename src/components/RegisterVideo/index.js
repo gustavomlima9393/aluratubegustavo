@@ -1,5 +1,6 @@
 import React from "react";
 import { StyledRegisterVideo } from "./styles";
+import { createClient } from "@supabase/supabase-js";
 
 // Whiteboarding
 // Custom Hook
@@ -23,11 +24,32 @@ function useForm(propsDoForm) {
     };
 }
 
+const PROJECT_URL = "https://bregpgndghawxhsznwzo.supabase.co";
+const PUBLIC_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJyZWdwZ25kZ2hhd3hoc3pud3pvIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjgzNzg4OTQsImV4cCI6MTk4Mzk1NDg5NH0.QJmlJv-ELCadyLZC2lMc5MRD-yadb9lKqxrrSDFDhe0";
+const supabase = createClient(PROJECT_URL, PUBLIC_KEY)
+
+// get youtube thumbnail from video url
+function getThumbnail(url) {
+    return `https://img.youtube.com/vi/${url.split("v=")[1]}/hqdefault.jpg`;
+}
+
+// function getVideoId(url) {
+//     const videoId = url.split("v=")[1];
+//     const ampersandPosition = videoId.indexOf("&");
+//     if (ampersandPosition !== -1) {
+//         return videoId.substring(0, ampersandPosition);
+//     }
+//     return videoId;
+// }
+
 export default function RegisterVideo() {
     const formCadastro = useForm({
-        initialValues: { titulo: "", url: "" }
+        initialValues: { titulo: "Lamb of God - Memento Mori (Official Video)", url: "https://www.youtube.com/watch?v=hBj0-dIU8HI" }
     });
     const [formVisivel, setFormVisivel] = React.useState(true);
+
+    console.log();
+
     /*
     ## O que precisamos para o form funcionar?
     - pegar os dados, que precisam vir do state
@@ -49,6 +71,20 @@ export default function RegisterVideo() {
                     <form onSubmit={(evento) => {
                         evento.preventDefault();
                         console.log(formCadastro.values);
+
+                        // Contrato entre o Front e o Back
+                        supabase.from("video").insert({
+                            title: formCadastro.values.titulo,
+                            url: formCadastro.values.url,
+                            thumb: getThumbnail(formCadastro.values.url),
+                            playlist: "músicas",
+                        })
+                        .then((oqueveio) => {
+                            console.log(oqueveio)
+                        })
+                        .catch((err) => {
+                            console.log(err)
+                        })
 
                         setFormVisivel(false);
                         formCadastro.clearForm();
