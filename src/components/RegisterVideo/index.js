@@ -44,11 +44,9 @@ function getThumbnail(url) {
 
 export default function RegisterVideo() {
     const formCadastro = useForm({
-        initialValues: { titulo: "Lamb of God - Memento Mori (Official Video)", url: "https://www.youtube.com/watch?v=hBj0-dIU8HI" }
+        initialValues: { titulo: "", url: "" }
     });
-    const [formVisivel, setFormVisivel] = React.useState(true);
-
-    console.log();
+    const [formVisivel, setFormVisivel] = React.useState(false);
 
     /*
     ## O que precisamos para o form funcionar?
@@ -77,7 +75,7 @@ export default function RegisterVideo() {
                             title: formCadastro.values.titulo,
                             url: formCadastro.values.url,
                             thumb: getThumbnail(formCadastro.values.url),
-                            playlist: "músicas",
+                            playlist: "Aulas",
                         })
                         .then((oqueveio) => {
                             console.log(oqueveio)
@@ -115,7 +113,6 @@ export default function RegisterVideo() {
         </StyledRegisterVideo>
     )
 }
-
 
 // [X] Falta o botão para adicionar
 // [X] Modal
